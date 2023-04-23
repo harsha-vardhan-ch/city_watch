@@ -12,7 +12,7 @@ import * as forecasted_predict_week_data from '../../config/Final_Datasets/forec
 AWS.config.update({
     region: config.AWS_REGION,
     accessKeyId: config.AWS_ACCESS_KEY,
-    secretAccessKey: config.AWS_SECRET_KEY
+    secretAccessKey: config.CITY_WATCH_AWS_SECRET_KEY
 });
 
 export default class CrimeController {

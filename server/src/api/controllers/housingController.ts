@@ -6,7 +6,7 @@ import * as housing from '../../config/Final_Datasets/housing.json';
 AWS.config.update({
     region: config.AWS_REGION,
     accessKeyId: config.AWS_ACCESS_KEY,
-    secretAccessKey: config.AWS_SECRET_KEY
+    secretAccessKey: config.CITY_WATCH_AWS_SECRET_KEY
 });
 
 export default class HousingController {
