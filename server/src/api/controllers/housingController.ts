@@ -5,7 +5,7 @@ import * as housing from '../../config/Final_Datasets/housing.json';
 
 AWS.config.update({
     region: config.CITY_WATCH_AWS_REGION,
-    accessKeyId: config.AWS_ACCESS_KEY,
+    accessKeyId: config.CITY_WATCH_AWS_ACCESS_KEY,
     secretAccessKey: config.CITY_WATCH_AWS_SECRET_KEY
 });
 
